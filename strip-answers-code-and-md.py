@@ -53,4 +53,4 @@ if __name__ == "__main__":
       target = flags.source.replace(".ipynb", "-exercises.ipynb")
 
     with open(target, "w") as f:
-        json.dump(nb, f)
+        json.dump(nb, f, indent = 1)
